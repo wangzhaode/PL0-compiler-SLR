@@ -1,0 +1,57 @@
+A¡úB.	{gen(opr,0,0)}
+B¡úCEFH	{null}
+B¡úH		{null}
+B¡úCH	{null}
+B¡úEH	{null}
+B¡úFH	{null}
+B¡úCFH	{null}
+B¡úCEH	{null}
+B¡úEFH	{null}
+C¡úcY;	{null}
+D¡úb=a	{table.insert(name:b.NAME,kind:c,val:a.val);addr++}
+E¡údX;	{table.insert(name:each of X.list.add(b),kind:d,lev:lev,addr:addr++)}
+F¡úGB;	{lev--;addr=G.val,gen(opr,0,0)}
+G¡úeb;	{table.insert(name:b.NAME,kind:e,lev:lev,addr:addr);lev++;G.val=addr;addr=dx,gen(int,0,3)}
+H¡úI		{null}
+H¡úR		{null}
+H¡úT		{null}
+H¡úS		{null}
+H¡úU		{null}
+H¡úV		{null}
+H¡úJ		{null}
+I¡úbtL	{find(b),gen(lit,0,L)gen(sto,b.l,b.a)}
+J¡úfWg	{null}
+K¡úLQL	{K.val = L.val Q.op L.val}
+K¡úhL	{K.val = L.val}
+L¡úLOM	{L.val = L.val O.op M.val;gen(O.op,L.val,M.val,t)}
+L¡úM		{L.val = M.val}
+L¡ú-M	{L.val = -M.val}
+L¡ú+M	{L.val = M.val}
+M¡úMPN	{M.val = M.val P.op N.val;gen(P.op,M.val,N.val,t)}
+M¡úN		{M.val = N.val}
+N¡úb		{N.val = b.val}
+N¡úa		{N.val = a.val}
+N¡ú(L)	{N.val = L.val}
+O¡ú+		{O.op = +}
+O¡ú-		{O.op =-}
+P¡ú*		{O.op =*}
+P¡ú/		{O.op =/}
+Q¡ú=		{O.op ==}
+Q¡ú#		{O.op =#}
+Q¡ú<		{O.op =<}
+Q¡úr		{O.op =r}
+Q¡ú>		{O.op =>}
+Q¡ús		{O.op =s}
+R¡úpKqH  {writeback}
+S¡úmb	{gen(cal,b.line)}
+T¡únKoH	{gen(jmp,start)}
+U¡úi(X)	{gen(i,X)}
+V¡új(Z)	{gen(j,Z)}
+W¡úW;H	{null}
+W¡úH		{null}
+X¡úX,b	{X.list.add(X,b)}
+X¡úb		{X.list.add(b)}
+Y¡úY,D	{null}
+Y¡úD		{null}
+Z¡úZ,L	{null}
+Z¡úL		{null}
