@@ -1,6 +1,7 @@
 # PL0-compiler-SLR
 a simple compiler of PL/0 by Java
-这是一个采用SLR分析方法实现的简单的PL/0编译器，采用Java语言
+
+这是一个采用SLR分析方法实现的简单的PL/0编译器，使用Java语言
 
 主要实现了： 
 
