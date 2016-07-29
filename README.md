@@ -1,5 +1,4 @@
-# PL0-compiler-SLR
-a simple compiler of PL/0 by Java
+# SLR方法实现的PL0编译器
 
 这是一个采用SLR分析方法实现的简单的PL/0编译器，使用Java语言
 
